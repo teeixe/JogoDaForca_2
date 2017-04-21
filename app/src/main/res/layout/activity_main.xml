@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivFundo"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        app:srcCompat="@drawable/green_1"
+        android:layout_below="@+id/tvDificuldade"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <TableLayout
+            android:id="@+id/tableLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/bZ"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="Z"
+                    android:textSize="24sp"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bX"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="X"
+                    android:textSize="24sp"
+                    android:layout_gravity="center|center_horizontal"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="C"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="V"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="B"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="N"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="M"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linearLayout3"
+        android:layout_centerHorizontal="true">
+
+        <TableLayout
+            android:id="@+id/tableLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/bA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="A"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute" />
+
+                <Button
+                    android:id="@+id/bS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="S"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="D"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="F"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bG"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="G"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bH"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="H"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bJ"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="J"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="K"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="L"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linearLayout2"
+        android:layout_centerHorizontal="true">
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/bQ"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:onClick="onClickChute"
+                    android:text="Q"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/bW"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="W"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="E"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="R"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="T"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bYY"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="Y"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bU"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="U"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bI"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="I"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+                <Button
+                    android:id="@+id/bO"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="O"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+
+                <Button
+                    android:id="@+id/bP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="P"
+                    android:textSize="24sp"
+                    android:onClick="onClickChute"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSegredo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/linearLayoutButtons">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/bRestartFacil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fácil"
+                    android:onClick="onClickRestart"
+                    android:visibility="visible"
+                    android:layout_below="@+id/tvSegredo" />
+
+                <Button
+                    android:id="@+id/bRestartMedio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/tvDificuldade"
+                    android:layout_below="@+id/tvSegredo"
+                    android:onClick="onClickRestart"
+                    android:text="Médio"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/bRestartDificil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClickRestart"
+                    android:text="Difícil"
+                    android:visibility="visible"
+                    android:layout_below="@+id/tvSegredo"
+                    android:layout_alignStart="@+id/tvSegredo" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvSegredo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:layout_below="@+id/ivFundo"
+        android:layout_centerHorizontal="true"
+        android:text="segredo"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvDificuldade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="dificuldade"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
