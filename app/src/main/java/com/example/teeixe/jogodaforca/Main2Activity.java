@@ -38,7 +38,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        MobileAds.initialize(this, "@string/app_id");
+        //MobileAds.initialize(this, "@string/app_id");
 
         AdView mAdView = (AdView) findViewById(R.id.adViewTeste);
         AdRequest adRequest = new AdRequest.Builder().build();
