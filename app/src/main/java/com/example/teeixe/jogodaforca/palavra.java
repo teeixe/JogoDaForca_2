@@ -7,17 +7,29 @@ package com.example.teeixe.jogodaforca;
 public class palavra {
 
     private String Nome;
-    private int Tipo;
+    private int Dificuldade;
+    private String Dica;
 
-    public palavra (String Nome, int Tipo){
+
+
+    public palavra (String Nome, int Dificuldade, String Dica){
 
         this.Nome = Nome;
-        this.Tipo = Tipo;
+        this.Dificuldade = Dificuldade;
+        this.Dica = Dica;
     }
 
     public palavra (String Nome){
 
         this.Nome = Nome;
+    }
+
+    public String getDica() {
+        return Dica;
+    }
+
+    public void setDica(String dica) {
+        Dica = dica;
     }
 
     public String getNome() {
@@ -28,11 +40,11 @@ public class palavra {
         Nome = nome;
     }
 
-    public int getTipo() {
-        return Tipo;
+    public int getDificuldade() {
+        return Dificuldade;
     }
 
-    public void setTipo(int tipo) {
-        Tipo = tipo;
+    public void setDificuldade(int dificuldade) {
+        Dificuldade = Dificuldade;
     }
 }

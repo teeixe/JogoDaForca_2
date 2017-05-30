@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/ivFundo"
-        android:layout_width="wrap_content"
-        android:layout_height="220dp"
-        app:srcCompat="@drawable/green_1"
-        android:layout_below="@+id/tvDificuldade"
+        style="casual"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="10dp"/>
+        android:layout_below="@+id/tableLayout"
+        app:srcCompat="@drawable/green_1_n" />
+
+
 
     <LinearLayout
         android:id="@+id/linearLayout3"
@@ -36,66 +39,80 @@
                     android:id="@+id/bZ"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:minWidth="0dp"
-                    android:text="Z"
-                    android:textSize="24sp"
                     android:layout_gravity="center_horizontal"
-                    android:onClick="onClickChute"/>
+                    android:fontFamily="casual"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:onClick="onClickChute"
+                    android:text="Z"
+                    android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/bX"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:minWidth="0dp"
-                    android:text="X"
-                    android:textSize="24sp"
                     android:layout_gravity="center|center_horizontal"
-                    android:onClick="onClickChute"/>
+                    android:fontFamily="casual"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:onClick="onClickChute"
+                    android:text="X"
+                    android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/bC"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="C"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/bV"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="V"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/bB"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="B"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/bN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="N"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/bM"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="M"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp" />
 
             </TableRow>
 
@@ -126,82 +143,100 @@
                     android:id="@+id/bA"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="A"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute" />
+                    android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/bS"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="S"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp"
+                    android:fontFamily="casual"/>
 
                 <Button
                     android:id="@+id/bD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="D"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp"
+                    android:fontFamily="casual"/>
 
                 <Button
                     android:id="@+id/bF"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="F"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp"
+                    android:fontFamily="casual"/>
 
                 <Button
                     android:id="@+id/bG"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="G"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/bH"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="H"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/bJ"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="J"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp"
+                    android:fontFamily="casual"/>
 
                 <Button
                     android:id="@+id/bK"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="K"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp"
+                    android:fontFamily="casual"/>
 
                 <Button
                     android:id="@+id/bL"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="L"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp"
+                    android:fontFamily="casual"/>
 
             </TableRow>
 
@@ -231,92 +266,112 @@
                     android:id="@+id/bQ"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
                     android:onClick="onClickChute"
                     android:text="Q"
-                    android:textSize="24sp" />
+                    android:textSize="16sp"
+                    android:fontFamily="casual"/>
 
                 <Button
                     android:id="@+id/bW"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="W"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp"
+                    android:fontFamily="casual"/>
 
                 <Button
                     android:id="@+id/bE"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="E"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp"
+                    android:fontFamily="casual"/>
 
                 <Button
                     android:id="@+id/bR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="R"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp"
+                    android:fontFamily="casual"/>
 
                 <Button
                     android:id="@+id/bT"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="T"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp"
+                    android:fontFamily="casual"/>
 
                 <Button
                     android:id="@+id/bYY"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="Y"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp"
+                    android:fontFamily="casual"/>
 
                 <Button
                     android:id="@+id/bU"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="U"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp"
+                    android:fontFamily="casual"/>
 
                 <Button
                     android:id="@+id/bI"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="I"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp"
+                    android:fontFamily="casual"/>
 
                 <Button
                     android:id="@+id/bO"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="O"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp"
+                    android:fontFamily="casual"/>
 
 
                 <Button
                     android:id="@+id/bP"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="0dp"
                     android:minWidth="0dp"
+                    android:onClick="onClickChute"
                     android:text="P"
-                    android:textSize="24sp"
-                    android:onClick="onClickChute"/>
+                    android:textSize="16sp"
+                    android:fontFamily="casual"/>
 
             </TableRow>
 
@@ -325,12 +380,12 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayoutButtons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:layout_below="@+id/tvSegredo"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:id="@+id/linearLayoutButtons">
+        android:layout_centerHorizontal="true">
 
         <TableLayout
             android:layout_width="wrap_content"
@@ -342,10 +397,11 @@
                     android:id="@+id/bRestartFacil"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Fácil"
+                    android:layout_below="@+id/tvSegredo"
                     android:onClick="onClickRestart"
+                    android:text="Fácil"
                     android:visibility="visible"
-                    android:layout_below="@+id/tvSegredo" />
+                    android:fontFamily="casual"/>
 
                 <Button
                     android:id="@+id/bRestartMedio"
@@ -355,17 +411,19 @@
                     android:layout_below="@+id/tvSegredo"
                     android:onClick="onClickRestart"
                     android:text="Médio"
-                    android:visibility="visible" />
+                    android:visibility="visible"
+                    android:fontFamily="casual"/>
 
                 <Button
                     android:id="@+id/bRestartDificil"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/tvSegredo"
+                    android:layout_below="@+id/tvSegredo"
                     android:onClick="onClickRestart"
                     android:text="Difícil"
                     android:visibility="visible"
-                    android:layout_below="@+id/tvSegredo"
-                    android:layout_alignStart="@+id/tvSegredo" />
+                    android:fontFamily="casual"/>
 
             </TableRow>
 
@@ -377,20 +435,106 @@
         android:id="@+id/tvSegredo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="50sp"
         android:layout_below="@+id/ivFundo"
         android:layout_centerHorizontal="true"
+        android:fontFamily="casual"
         android:text="segredo"
-        android:layout_marginTop="10dp"/>
+        android:textSize="40sp" />
 
-    <TextView
-        android:id="@+id/tvDificuldade"
+
+    <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="28sp"
-        android:text="dificuldade"
+        android:id="@+id/tableLayout"
+
         android:layout_alignParentTop="true"
+        >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tableLayout"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/tvDificuldade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="dificuldade"
+                android:textSize="28sp"
+                android:fontFamily="casual"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayoutC"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tableLayout"
+            android:layout_alignParentEnd="true">
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tvFim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tvSegredo"
+        android:layout_below="@+id/tableLayout"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"/>
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="t"
+        android:textSize="40dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bDica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:text="Dica"
+        android:onClick="onClickDica"
+        android:layout_above="@+id/ivFundo"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:id="@+id/tvDica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ivFundo"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/bDica"
+        android:fontFamily="casual"
+        android:text=""
+        android:textSize="28sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bPlayAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSegredo"
+        android:layout_marginTop="5dp"
+        android:visibility="invisible"
+        android:onClick="OnClickPlayAgain"
+        android:layout_centerHorizontal="true"
+        android:text="Jogar Novamente" />
 
 </RelativeLayout>
