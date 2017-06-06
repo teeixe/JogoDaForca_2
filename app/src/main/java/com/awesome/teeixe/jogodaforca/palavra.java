@@ -1,4 +1,4 @@
-package com.example.teeixe.jogodaforca;
+package com.awesome.teeixe.jogodaforca;
 
 /**
  * Created by Guilherme on 17/04/2017.

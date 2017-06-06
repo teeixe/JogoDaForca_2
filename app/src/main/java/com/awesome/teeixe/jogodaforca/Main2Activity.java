@@ -1,20 +1,20 @@
-package com.example.teeixe.jogodaforca;
+package com.awesome.teeixe.jogodaforca;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutCompat;
-import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.google.android.gms.ads.MobileAds;
+
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.MobileAds;
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -38,10 +38,13 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        //MobileAds.initialize(this, "@string/app_id");
+        MobileAds.initialize(this, "@string/app_id");
 
         AdView mAdView = (AdView) findViewById(R.id.adViewTeste);
-        AdRequest adRequest = new AdRequest.Builder().build();
+        AdRequest adRequest = new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .addTestDevice("8566238FD93D0F9BE1D0447B33998056")
+                .build();
         mAdView.loadAd(adRequest);
 
         etSegredoDois = (EditText) findViewById(R.id.etDisplayView);
@@ -81,6 +84,8 @@ public class Main2Activity extends AppCompatActivity {
             }
         }
 
+        SegredoDois = SegredoDois.replace(" ","");
+        SegredoDois = SegredoDois.replace("\n","");
 
         if((SegredoDois.length() < 2) && (View.VISIBLE == etSegredoDois.getVisibility())){
             Toast.makeText(getApplicationContext(),"Escreva uma palavra segredo de pelo menos 2 letras",Toast.LENGTH_SHORT).show();

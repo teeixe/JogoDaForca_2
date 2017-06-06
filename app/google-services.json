@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "442463834670",
-    "firebase_url": "https://o-jogo-da-forca.firebaseio.com",
-    "project_id": "o-jogo-da-forca",
-    "storage_bucket": "o-jogo-da-forca.appspot.com"
+    "project_number": "232056970971",
+    "firebase_url": "https://o-jogo-da-forca1.firebaseio.com",
+    "project_id": "o-jogo-da-forca1",
+    "storage_bucket": "o-jogo-da-forca1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:442463834670:android:8760d3b8e0d81870",
+        "mobilesdk_app_id": "1:232056970971:android:6eb5c0cb15e79e3e",
         "android_client_info": {
-          "package_name": "com.example.teeixe.jogodaforca"
+          "package_name": "com.awesome.teeixe.jogodaforca"
         }
       },
       "oauth_client": [
         {
-          "client_id": "442463834670-ptksl54353ati7d9d4k3iqrfi07blhba.apps.googleusercontent.com",
+          "client_id": "232056970971-is2jj2kkavsfs5jn42mqfmanlamhpff0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyALhM3M4lLnqSRe43Ljr_8LlwaX-TVrBIM"
+          "current_key": "AIzaSyBjEj-aH5NFJ-taqMIGAXc7omMpz7y2kTU"
         }
       ],
       "services": {

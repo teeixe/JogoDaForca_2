@@ -1,4 +1,4 @@
-package com.example.teeixe.jogodaforca;
+package com.awesome.teeixe.jogodaforca;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

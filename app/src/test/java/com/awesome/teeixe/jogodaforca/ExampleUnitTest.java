@@ -1,4 +1,4 @@
-package com.example.teeixe.jogodaforca;
+package com.awesome.teeixe.jogodaforca;
 
 import org.junit.Test;
 
