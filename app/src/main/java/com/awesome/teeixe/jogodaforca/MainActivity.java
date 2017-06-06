@@ -278,6 +278,10 @@ public class MainActivity extends AppCompatActivity {
             tvDica.setVisibility(View.VISIBLE);
     }
 
+    public void OnClickPlayAgain(View v){
+        finish();
+    }
+
     private void zeraChute(View view) {
 
         auxChute = new char[auxSegredo.length];
